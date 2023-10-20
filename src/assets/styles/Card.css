@@ -1,0 +1,42 @@
+.carta{
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 4px -4px 24px -8px rgba(0,0,0,0.75);
+    display: flex;
+    width: 480px;
+}
+
+.carta .imgContainer{
+    width: 38%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.carta .imgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: inherit;
+}
+
+.carta .textContainer{
+    width: 62%;
+    padding: 15px;
+}
+
+.carta .textContainer .textMain span{
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+
+.carta .textContainer .textAdd span{
+    font-size: .8rem;
+    color: #8f8f8f;
+
+}
+
+.carta .textContainer .textAdd{
+    box-shadow: 4px -4px 24px -8px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    padding: 15px;
+    float: right;
+}
